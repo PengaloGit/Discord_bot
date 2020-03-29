@@ -48,9 +48,9 @@ Ps :*The image size is 933 mb after extraction and around 300 mb before*
 
 
 ## Acknowledgment
-* [Dev Daksan](https://github.com/R3l3ntl3ss) free meme api [repo](https://github.com/R3l3ntl3ss/Meme_Api)
+* [Dev Daksan](https://github.com/R3l3ntl3ss) free memes api [repo](https://github.com/R3l3ntl3ss/Meme_Api)
 * [David Katz](https://github.com/15Dkatz) free jokes api [repo](https://github.com/15Dkatz/official_joke_api)
-* [dog.ceo](https://dog.ceo/dog-api/) free dogs image
+* [dog.ceo](https://dog.ceo/dog-api/) free dogs images
 
 
 ## Authors
