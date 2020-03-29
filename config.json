@@ -1,4 +1,5 @@
 {
     "prefix": "!",
-    "token": "API-KEY"
+    "token": "YOUR-TOKEN",
+    "cat_api_key" : "YOUR-API-KEY"
 }
