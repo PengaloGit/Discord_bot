@@ -10,7 +10,7 @@ module.exports = {
                message.reply("This command shows a random dog picture")
            }else{
             message.reply("The command dog does'nt take arguments \n "+
-            "The proper usage would be: !dog or !dog -info")
+            "The proper usage would be: !dog or !woof or !dog -info")
            }
         }else{
             superagent
