@@ -27,6 +27,26 @@ Now run
 node app.js
 ```
 
+## Set up using Docker
+Clone the repo to your local machine.
+
+Run
+```
+docker build -t <username>/<botname> .
+```
+Check if the image is created successfully
+```
+docker images 
+```
+Now run the docker image
+
+```
+docker run <username>/<botname>
+```
+
+Ps :*The image size is 933 mb after extraction and around 300 mb before* 
+
+
 ## Acknowledgment
 * [Dev Daksan](https://github.com/R3l3ntl3ss) free meme api [repo](https://github.com/R3l3ntl3ss/Meme_Api)
 * [David Katz](https://github.com/15Dkatz) free jokes api [repo](https://github.com/15Dkatz/official_joke_api)
