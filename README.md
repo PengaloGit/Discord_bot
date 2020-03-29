@@ -22,6 +22,7 @@ To get the token go to [discord developper](https://discordapp.com/developers/ap
 ### Using node locally
 
 Install nodejs on your machine.
+
 Then run
 ```
 npm install
