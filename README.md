@@ -1,2 +1,44 @@
-# Discord_bot
-Discord bot using nodeJs and DIscord.js library
+# Pengubot
+A [discord](https://discordapp.com/) bot using nodeJs and Discord.js(https://discord.js.org/#/) library and nodejs(https://nodejs.org/en/).
+
+## Set up
+
+Clone the repo to your local machine.
+
+```
+npm install
+```
+Open the config.json in your favorite code editor and fill the values
+
+```json
+{
+    "prefix": "YOUR-PREFIXE",
+    "token": "YOUR-TOKEN",
+    "cat_api_key" : "X-KEY-API",
+    "SERVER_NAME" : "YOUR-SERVER-NAME",
+    "BOT_NAME" : "YOUR-BOT-NAME"
+}
+```
+To get the token go to [discord developper](https://discordapp.com/developers/applications), to get the cat api key go to [thecatapi.com](https://thecatapi.com/)
+
+Now run
+
+```
+node app.js
+```
+
+## Acknowledgment
+* [Dev Daksan](https://github.com/R3l3ntl3ss) free meme api [repo](https://github.com/R3l3ntl3ss/Meme_Api)
+* [David Katz](https://github.com/15Dkatz) free jokes api [repo](https://github.com/15Dkatz/official_joke_api)
+* [dog.ceo](https://dog.ceo/dog-api/) free dogs image
+
+
+## Authors
+
+* **Loukmane MAADA** - [PengaloGit](https://github.com/PengaloGit)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details
+
+
