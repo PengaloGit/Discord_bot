@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const Discord = require('discord.js');
-const { prefix, token } = require('./config.json');
+const { prefix, token, SERVER_NAME,BOT_NAME } = require('./config.json');
 
 const bot = new Discord.Client();
 
@@ -17,7 +17,7 @@ for (const file of commandFiles) {
 }
 
 bot.on('ready', () => {
-    bot.user.setUsername("PenguBot")
+    bot.user.setUsername(BOT_NAME)
     console.log(`Logged in as ${bot.user.username}!`);
 });
 
@@ -28,7 +28,8 @@ bot.on("guildCreate", function (guild) {
 bot.on('guildMemberAdd', (member) => {
     const user = bot.users.cache.get(member.id);
 
-    message = "```Hello I'm " + bot.user.username + ", Welcome to " + member.guild + " hope you'll enjoy and have a good time with the cammunity, all you need to remember respect is all you need to stay in it.```";
+    message = "```Hello I'm " + bot.user.username + ", Welcome to " + SERVER_NAME + " hope you'll enjoy and have a good time with the cammunity, all you need to remember respect is all you need to stay in it.\n```" +
+    "Type : **!all-cammand** in general to see the commands we have for you :heart: ";
 
     user.send(message);
 });

@@ -1,5 +1,7 @@
 {
-    "prefix": "!",
+    "prefix": "YOUR-PREFIXE",
     "token": "YOUR-TOKEN",
-    "cat_api_key" : "YOUR-API-KEY"
+    "cat_api_key" : "X-KEY-API",
+    "SERVER_NAME" : "YOUR-SERVER-NAME",
+    "BOT_NAME" : "YOUR-BOT-NAME"
 }
