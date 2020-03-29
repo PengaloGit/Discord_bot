@@ -1,13 +1,11 @@
 # Pengubot
 A [discord](https://discordapp.com/) bot using nodeJs and [Discord.js](https://discord.js.org/#/) library and [nodejs](https://nodejs.org/en/).
 
+
 ## Set up
 
 Clone the repo to your local machine.
 
-```
-npm install
-```
 Open the config.json in your favorite code editor and fill the values
 
 ```json
@@ -21,20 +19,21 @@ Open the config.json in your favorite code editor and fill the values
 ```
 To get the token go to [discord developper](https://discordapp.com/developers/applications), to get the cat api key go to [thecatapi.com](https://thecatapi.com/)
 
-Now run
+### Using node locally
+
+Install nodejs.
 
 ```
+npm install
 node app.js
 ```
 
-## Set up using Docker
-Clone the repo to your local machine.
-
+### Using Docker image
 Run
 ```
 docker build -t <username>/<botname> .
 ```
-Check if the image is created successfully
+Check if the image was built successfully
 ```
 docker images 
 ```
