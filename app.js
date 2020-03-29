@@ -35,7 +35,7 @@ bot.on('guildMemberAdd',(member) => {
 
 bot.on('message', message => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
-    message.channel.send(message.author.username)
+    
     //spliting the input and neglecting the space 
     const args = message.content.slice(prefix.length).split(/ +/);//args =[command,arguments...]
     //pop the cammand name and storing it in command variable

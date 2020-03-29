@@ -19,7 +19,6 @@ module.exports = {
         .end((err, res) => {
             if(err) message.channel.send("Something bad happend");
             else {
-                console.log(res.body.message)
                 message.channel.send(res.body.message); 
             }   
         });

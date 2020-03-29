@@ -1,5 +1,5 @@
 const superagent = require('superagent');
-const { cat_api_key } = require('./config.json');
+const { cat_api_key } = require('../config.json');
 module.exports = {
 	name: 'cat',
     description: 'get a random cat picture',
@@ -20,7 +20,6 @@ module.exports = {
             .end((err, res) => {
                 if(err) message.channel.send("Something bad happend");
                 else {
-                    console.log(res.body[0].url)
                     message.channel.send(res.body[0].url); 
                 }   
             });

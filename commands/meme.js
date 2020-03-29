@@ -18,7 +18,6 @@ module.exports = {
             .end((err, res) => {
                 if (err) message.channel.send("Something bad happend");
                 else {
-                    console.log(res.body.url)
                     message.channel.send(res.body.url);
                 }
             });
