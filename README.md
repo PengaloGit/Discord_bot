@@ -1,4 +1,6 @@
 # Pengubot
+[![GitHub license](https://img.shields.io/github/license/PengaloGit/Discord_bot)](https://github.com/PengaloGit/Discord_bot/blob/master/LICENSE)
+
 A [discord](https://discordapp.com/) bot using nodeJs and [Discord.js](https://discord.js.org/#/) library and [nodejs](https://nodejs.org/en/).
 
 
