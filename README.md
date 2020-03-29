@@ -1,5 +1,5 @@
 # Pengubot
-A [discord](https://discordapp.com/) bot using nodeJs and Discord.js(https://discord.js.org/#/) library and nodejs(https://nodejs.org/en/).
+A [discord](https://discordapp.com/) bot using nodeJs and [Discord.js](https://discord.js.org/#/) library and [nodejs](https://nodejs.org/en/).
 
 ## Set up
 
